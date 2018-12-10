@@ -13,3 +13,4 @@
  (05)    git add bitacora --> git commit -m Paso 05
  (06)    git branch develop
  (07)    git branch feature/Ticket220 --> Doble click sobre la Rama.
+ (13)    git stash --> git Checkout feature/Ticket220
