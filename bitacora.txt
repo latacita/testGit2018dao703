@@ -6,3 +6,8 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+ (01)    Abrir nueva pestanya y pulsar en clone > Anyaddir la url y clonar el repositio en la carpeta por defecto.
+ (02)    Abrir el documento bitacora.txt con el editor de textos del ordenador y escrbir el nombre y los apellidos.
+ (03)    Poner el fichero en seguimiento mediante un stageAll desde la pestanya file status (equivalente a git add bitacora.txt)
+         Realizar un commit poniendo como mensaje Paso 03 [...] y finalmente subirlo al repositorio remoto mendiante un push.
+  
