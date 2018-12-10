@@ -32,4 +32,9 @@
  (25)    click derecho sobre Ticket220 --> merge into current branch con "Create a new commit even FastForward is posible"
  (26)    click derecho sobre Ticket221 --> merge into current branch con "Create a new commit even FastForward is posible"
          surgen conflictos puesto que las dos ramas mergeadas no contienen lo mismo y se edita el fichero para conservar todo.
-         
+ (28)    git add bitacora.txt --> git commit "Paso28"
+ (29)    selectionar commit 29 --> tag --> "Step29" --> apply
+ (30)    push --> Seleccion de todas las ramas, casilla de all tags desactivada
+ (31)    git checkout feature/Ticket222
+ (32)    merge develop into current branch
+ 
