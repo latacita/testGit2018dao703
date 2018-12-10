@@ -37,4 +37,11 @@
  (30)    push --> Seleccion de todas las ramas, casilla de all tags desactivada
  (31)    git checkout feature/Ticket222
  (32)    merge develop into current branch
- 
+ (34)   git add bitacora.txt --> git commit -m "PAso 34"
+ (35)   En la rama develop merge into current branch (feature/Ticket222)
+ (36)   En la rama master merge into current branch (develop)
+ (37)   edito este fichero
+
+
+ *Nota: Para el paso 32 se podria haber cogido el fichero cambiando a la rama develop copiando el fichero en otro lugar del pc
+        y volviendo a la rama 222.
