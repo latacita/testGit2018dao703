@@ -10,6 +10,7 @@
  (02)    Abrir el documento bitacora.txt con el editor de textos del ordenador y escrbir el nombre y los apellidos.
  (03)    Poner el fichero en seguimiento mediante un stageAll desde la pestanya file status (equivalente a git add bitacora.txt)
          Realizar un commit poniendo como mensaje Paso 03 [...] y finalmente subirlo al repositorio remoto mendiante un push.
+
  (05)    git add bitacora --> git commit -m Paso 05
  (06)    git branch develop
  (07)    git branch feature/Ticket220 --> Doble click sobre la Rama.
@@ -19,4 +20,16 @@
  (19)    git Checkout develop
  (20)    git branch feature/Ticket222
  (21)    git Checkout feature/Ticket220       FastForward --> No hay nuevos commits en la rama destino. Tienen un antepasado comun.
-   
+
+ (09)    git add bitacora.txt --> git commit -m "Paso 09"
+ (10)    git checkout develop
+ (11)    git branch feature/Ticket221 --> git checkout feature/Ticket221
+ (15)    git add bitacora.txt --> git commit -m "Paso 15"
+ (16)    git checkout feature/Ticket221
+
+ (23)    git add bitacora.tx --> git commit -m "Paso 23"
+ (24)    git checkout develop
+ (25)    click derecho sobre Ticket220 --> merge into current branch con "Create a new commit even FastForward is posible"
+ (26)    click derecho sobre Ticket221 --> merge into current branch con "Create a new commit even FastForward is posible"
+         surgen conflictos puesto que las dos ramas mergeadas no contienen lo mismo y se edita el fichero para conservar todo.
+         
