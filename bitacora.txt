@@ -10,4 +10,8 @@
  (02)    Abrir el documento bitacora.txt con el editor de textos del ordenador y escrbir el nombre y los apellidos.
  (03)    Poner el fichero en seguimiento mediante un stageAll desde la pestanya file status (equivalente a git add bitacora.txt)
          Realizar un commit poniendo como mensaje Paso 03 [...] y finalmente subirlo al repositorio remoto mendiante un push.
-  
+ (09)    git add bitacora.txt --> git commit -m "Paso 09"
+ (10)    git checkout develop
+ (11)    git branch feature/Ticket221 --> git checkout feature/Ticket221
+ (15)    git add bitacora.txt --> git commit -m "Paso 15"
+ (16)    git checkout feature/Ticket221 
